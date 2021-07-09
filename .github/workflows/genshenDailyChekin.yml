@@ -36,3 +36,4 @@ jobs:
       env:
         Cookie: ${{secrets.Cookie}}
       run: dotnet run -p ./GenshinDailyHelper ${Cookie}
+       
